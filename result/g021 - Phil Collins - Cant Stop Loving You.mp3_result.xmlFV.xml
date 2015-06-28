@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!DOCTYPE feature_vector_file [
+   <!ELEMENT feature_vector_file (comments, data_set+)>
+   <!ELEMENT comments (#PCDATA)>
+   <!ELEMENT data_set (data_set_id, section*, feature*)>
+   <!ELEMENT data_set_id (#PCDATA)>
+   <!ELEMENT section (feature+)>
+   <!ATTLIST section start CDATA ""
+                     stop CDATA "">
+   <!ELEMENT feature (name, v+)>
+   <!ELEMENT name (#PCDATA)>
+   <!ELEMENT v (#PCDATA)>
+]>
+
+<feature_vector_file>
+
+   <comments></comments>
+
+	<data_set>
+		<data_set_id>C:\RWTH\AndroidLab\test\g021 - Phil Collins - Cant Stop Loving You.wav</data_set_id>
+		<feature>
+			<name>Spectral Centroid Overall Average</name>
+			<v>2.45E1</v>
+		</feature>
+		<feature>
+			<name>Spectral Rolloff Point Overall Average</name>
+			<v>1.714E-1</v>
+		</feature>
+		<feature>
+			<name>Spectral Flux Overall Average</name>
+			<v>6.793E-3</v>
+		</feature>
+		<feature>
+			<name>Compactness Overall Average</name>
+			<v>1.633E3</v>
+		</feature>
+		<feature>
+			<name>Spectral Variability Overall Average</name>
+			<v>5.982E-3</v>
+		</feature>
+		<feature>
+			<name>Root Mean Square Overall Average</name>
+			<v>2.546E-1</v>
+		</feature>
+		<feature>
+			<name>Fraction Of Low Energy Windows Overall Average</name>
+			<v>5.568E-1</v>
+		</feature>
+		<feature>
+			<name>Zero Crossings Overall Average</name>
+			<v>6.786E1</v>
+		</feature>
+		<feature>
+			<name>Strongest Beat Overall Average</name>
+			<v>1.987E2</v>
+		</feature>
+		<feature>
+			<name>Beat Sum Overall Average</name>
+			<v>1.977E3</v>
+		</feature>
+		<feature>
+			<name>Strength Of Strongest Beat Overall Average</name>
+			<v>9.897E-3</v>
+		</feature>
+		<feature>
+			<name>LPC Overall Average</name>
+			<v>-8.685E-1</v>
+			<v>1.716E-1</v>
+			<v>-1.255E-1</v>
+			<v>4.966E-2</v>
+			<v>3.275E-2</v>
+			<v>3.895E-2</v>
+			<v>-9.831E-3</v>
+			<v>9.644E-3</v>
+			<v>1.354E-2</v>
+			<v>0E0</v>
+		</feature>
+		<feature>
+			<name>Method of Moments Overall Average</name>
+			<v>8.077E-1</v>
+			<v>6.049E1</v>
+			<v>4.176E3</v>
+			<v>2.964E5</v>
+			<v>6.216E7</v>
+		</feature>
+		<feature>
+			<name>Area Method of Moments of MFCCs Overall Average</name>
+			<v>8.086E0</v>
+			<v>1.786E4</v>
+			<v>2.313E5</v>
+			<v>-4.278E8</v>
+			<v>-5.683E9</v>
+			<v>-7.567E10</v>
+			<v>2.306E13</v>
+			<v>5.104E10</v>
+			<v>6.799E11</v>
+			<v>5.644E16</v>
+		</feature>
+	</data_set>
+
+</feature_vector_file>
